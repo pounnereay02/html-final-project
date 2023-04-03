@@ -1,0 +1,245 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.logo {
+    color: white;
+    font-size: 30px;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu-bar {
+    background: #202A44;    
+    height: 80%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+.menu-bar ul {
+    list-style: none;
+    display: flex;
+}
+.menu-bar ul li {
+    padding: 25px;
+}
+.menu-bar ul li a {
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+.content1{
+
+    background-color: #bf9000;
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: space-evenly;
+}
+.img-1 img{
+    width: 600px;
+    /* padding-left: 130px; */
+    padding-bottom: 50px;
+}
+.text-title{
+    color: white;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.text-title h1{
+    font-size: 35px;
+}
+.text-title p{
+    font-size: 20px;
+}
+.btn-rm{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px 22px;
+}
+.btn-rm a{
+    color: black;
+    text-decoration: none;
+}
+.content2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: space-evenly;
+}
+
+.content2 .img2 img{
+    width: 600px;
+    margin-left: 10%;
+}
+/* .img2 img{
+    width: 600px;
+    margin-left: 500px;
+} */
+.text-title-2{
+    color: black;
+    /* margin-left: 150px;
+    margin-top: 100px; */
+}
+.text-title-2 h1{
+    font-size: 35px;
+}
+.text-title-2 p{
+    font-size: 20px;
+}
+.footer1{
+    background:#202A44;
+    height: 100px;
+    width: 100%;
+}
+.footer1 p{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 40px;
+}
+.pfo h1{
+    padding-top: 15px;
+    padding-left: 5%;
+    padding-bottom: 15px;
+}
+.container {
+    display: flex;
+}
+.container td {
+    float: left;
+}
+#b1 {
+  height: 450px;
+  width: 750px;
+}
+#b2 {
+    height: 150px;
+    width: 750px;
+    padding-top: 5px;
+}
+#b3 {
+  height: 150px;
+  width: 750px;
+}
+#b4 {
+    height: 450px;
+    width: 750px;
+    padding-top: 5px;
+}
+.con-us{
+    width: 650px;
+    margin-left: 5%;
+    margin-top: 15px;
+    display: flex;
+}
+input[type=text], textarea{
+    width: 650px;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+
+input[type=submit] {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 7px 40px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+.container-1{
+    display: flex;
+}
+.map, iframe{
+    width: 620px;
+    height: 520px;
+    margin: 5%;
+    border: none;
+    border-radius: 5px;
+}
+.our-team {
+    height: 550px;
+    background: white;
+}
+.our-team h1 {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+.team-member {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 80px;
+}
+
+.team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 20px;
+}
+
+.team-member h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 18px;
+    text-align: center;
+    max-width: 400px;
+    line-height: 1.5;
+}
+.service h1{
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-bottom: 15px;
+}
+.our-service {
+    display: inline-flex;
+}
+.our-service .table1,td {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+.our-service .table1 td {
+    width: 580px;
+    height: 600px;
+}
+.our-service .table2,td {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+.our-service .table2 td {
+    width: 450px;
+    height: 150px;
+}
+.our-service img{
+    width: 70px;
+    margin: 10px;
+}
+.our-service h3{
+    margin: 10px;
+}
+.our-service p{
+    text-align: justify;
+    font-size: 14px;
+    margin: 10px;
+}
